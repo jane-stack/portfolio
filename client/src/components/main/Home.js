@@ -1,8 +1,14 @@
 function Home () {
 
     return (
-        <div>
-            <h3>Welcome to my Portfolio</h3>
+        <div class="flex-container">
+            <div class="flex-child">
+                PHOTO
+            </div>
+
+            <div class="flex-child">
+                ABOUT ME
+            </div>
         </div>
     )
 }

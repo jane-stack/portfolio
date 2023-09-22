@@ -64,3 +64,18 @@ a:visited {
 .footer-logos {
   position: flex;
 }
+
+/* About Me divs */
+.flex-container {
+  display: flex;
+  padding: 20px;
+}
+
+.flex-child {
+  flex: 1;
+  background-color: white;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
