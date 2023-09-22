@@ -3,7 +3,7 @@ function Home () {
     return (
         <div class="flex-container">
             <div class="flex-child">
-                <img class="image-profile" src="./IMG_7519.jpg" alt="githublogo" width="400"/>
+                <img class="image-profile" src="./IMG_9618.jpg" alt="githublogo" width="400"/>
             </div>
 
             <div class="flex-child">
