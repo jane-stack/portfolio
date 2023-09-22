@@ -63,7 +63,12 @@ a:visited {
 }
 
 .footer-logos {
-  position: flex;
+  display: flex;
+  padding: 20px;
+}
+
+.footer-div {
+  padding: 20px;
 }
 
 /* About Me divs */
