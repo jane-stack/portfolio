@@ -3,7 +3,9 @@ function Home () {
     return (
         <div class="flex-container">
             <div class="flex-child">
-                <img class="image-profile" src="./IMG_9618.JPG" alt="hobby-photo" width="400"/>
+                <div class="photo-section">
+                <img src="./IMG_9618.JPG" alt="hobby-photo" width="450"/>
+                </div>
             </div>
 
             <div class="flex-child">
