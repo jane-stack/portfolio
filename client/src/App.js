@@ -1,19 +1,19 @@
-import { useState, useEffect } from "react";
+import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from "./components/main/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    fetch("/hello")
-      .then((r) => r.json())
-      .then((data) => setCount(data.count));
-  }, []);
 
   return (
-    <div className="App">
-      <h1>Page Count: {count}</h1>
+    <BrowserRouter>
+    <Navbar />
+    <div>
+      <Routes>
+        <Route />
+      </Routes>
     </div>
-  );
+    </BrowserRouter>
+  )
 }
 
 export default App;
