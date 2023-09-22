@@ -29,7 +29,7 @@ a:visited {
   display: flex;
   justify-content: center;
   color: black;
-  height: 800px;
+  height: 600px;
 }
 
 .Footer {
@@ -73,13 +73,12 @@ a:visited {
 
 .flex-child {
   flex: 1;
-  background-color: white;
 }
 
 .flex-child:first-child {
   margin-right: 20px;
 }
 
-.profile-img {
-  clip-path: circle();
+.image-profile {
+  border-radius: 50%;
 }

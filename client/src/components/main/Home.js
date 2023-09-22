@@ -3,11 +3,12 @@ function Home () {
     return (
         <div class="flex-container">
             <div class="flex-child">
-                <img classname="profile-img" src="./IMG_7519.jpg" alt="githublogo" height="500"/>
+                <img class="image-profile" src="./IMG_7519.jpg" alt="githublogo" width="400"/>
             </div>
 
             <div class="flex-child">
-                ABOUT ME
+                <h3>A Little About Me</h3>
+                <p>Hello</p>
             </div>
         </div>
     )
