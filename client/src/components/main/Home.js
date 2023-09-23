@@ -4,6 +4,7 @@ function Home () {
         <div className="flex-container">
             <div className="flex-child">
                 <div className="photo-section">
+                    <br />
                 <img src="./9618.JPG" alt="hobby" width="350"/>
                 </div>
             </div>
