@@ -4,8 +4,8 @@ function Navbar () {
 
     return (
         <div className='navbar'>
-            <div class="nav-container">
-            <div class="nav-child">
+            <div className="nav-container">
+            <div className="nav-child">
                 <h1>TUYEN HA</h1>
                 <h3>FULL STACK DEVELOPER</h3>
                 <hr />
