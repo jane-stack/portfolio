@@ -11,9 +11,10 @@ function Navbar () {
                 <hr />
                 <Link className='nav-link' to="/">ABOUT ME</Link>
                 <Link className='nav-link' to="/portfolio">PROJECTS</Link>
+                <Link className='nav-link' to="/resume">RESUME</Link>
             </div>
             <div class="nav-child">
-                <img class="profile-pic" src="./IMG_2442.JPG" alt="profile-photo" width="100"/>
+                <img className="profile-pic" src="./2442.JPG" alt="profile" width="100"/>
                 <h6>DENVER, COLORADO</h6>
             </div>
             </div>

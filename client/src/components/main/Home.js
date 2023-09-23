@@ -1,15 +1,15 @@
 function Home () {
 
     return (
-        <div class="flex-container">
-            <div class="flex-child">
-                <div class="photo-section">
-                <img src="./IMG_9618.JPG" alt="hobby-photo" width="450"/>
+        <div className="flex-container">
+            <div className="flex-child">
+                <div className="photo-section">
+                <img src="./9618.JPG" alt="hobby" width="450"/>
                 </div>
             </div>
 
-            <div class="flex-child">
-                <div class="about-section">
+            <div className="flex-child">
+                <div className="about-section">
                     <h3>ABOUT ME</h3>
                     <p>
                     Hi there! I go by the name Tuyen and I was born in Vietnam but grew up in the United States. Nature has always held a special place in my heart, especially the beauty of sunrises and sunsets. In my free time, I enjoy hiking and capturing those breathtaking moments through photography.
