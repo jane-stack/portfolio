@@ -10,18 +10,12 @@ function Home () {
 
             <div className="flex-child">
                 <div className="about-section">
-                    <h3>ABOUT ME</h3>
                     <p>
-                    Hi there! I go by the name Tuyen and I was born in Vietnam but grew up in the United States. Nature has always held a special place in my heart, especially the beauty of sunrises and sunsets. In my free time, I enjoy hiking and capturing those breathtaking moments through photography.
-                        <br />
-                        <br />
-                        Becoming a mother at a young age presented its fair share of challenges, making it difficult for me to pursue a career that truly ignited my passion. Instead, I had to prioritize survival and raising my son as a single mother. I ended up working in the hospitality industry for over ten years, gaining valuable experience in customer service and management.
-                        <br />
-                        <br />
-                        However, last year, I made a life-changing decision. I seized the opportunity to become a stay-at-home mother so that I could finally pursue my dream career in Software Development. The world of Software Engineering had always fascinated me, but I doubted my abilities and hesitated to take the leap into a boot camp. After careful consideration, I realized that life is too short to hesitate, so I enrolled in Flatiron School and embarked on my journey as a Software Engineer.
-                        <br />
-                        <br />
-                        Today, I am incredibly proud to not only call myself a mother but also a driven Software Engineer.
+Hello! I'm Tuyen, and I am absolutely captivated by the beauty of nature, especially sunsets and sunrises. There is something so magical and awe-inspiring about witnessing the colors dance across the sky, and I can't help but feel a sense of peacefulness and wonder in those moments.
+<br /><br />
+When I'm not out in nature, experiencing these breathtaking scenes firsthand, I am passionately pursuing my dream career in Software Development. It hasn't always been an easy path, as doubts and uncertainties often crept into my mind. However, I decided to take a leap of faith and enrolled in the Flatiron School to gain the knowledge and skills needed to become a Software Engineer.
+<br /><br />
+Now, I can proudly say that I am a Software Engineer, combining my love for technology with my passion for problem-solving and creating innovative solutions. Every day is a new adventure as I continue to learn and grow in this ever-evolving field. I am grateful for the opportunities that have come my way and excited for what the future holds.
                     </p>
                 </div>
             </div>
