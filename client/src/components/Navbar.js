@@ -13,7 +13,7 @@ function Navbar () {
                 <Link className='nav-link' to="/portfolio">PROJECTS</Link>
                 <Link className='nav-link' to="/resume">RESUME</Link>
             </div>
-            <div class="nav-child">
+            <div className="nav-child">
                 <img className="profile-pic" src="./2442.JPG" alt="profile" width="100"/>
                 <h6>DENVER, COLORADO</h6>
             </div>
