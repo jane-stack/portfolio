@@ -1,8 +1,14 @@
+import FileForm from "./FileForm";
+import LastestImage from "./LastestImage";
+
 function PortfolioPage () {
 
     return (
         <div>
-            <h3>Here are my work demos</h3>
+            <div className="upload-project">
+                <FileForm />
+                <LastestImage />
+            </div>
         </div>
     )
 }

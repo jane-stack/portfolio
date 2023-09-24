@@ -1,7 +1,16 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  resources :users, only: [:index]
+  resources :projects
 
+  # User
+  get '/me', to: 'users#show'
+
+  # Sessions
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
+
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # get 'latest', to: 'projects#latest'
   # Defines the root path route ("/")
   # root "articles#index"
-  get '/hello', to: 'application#hello_world'
 end

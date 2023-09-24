@@ -124,3 +124,41 @@ a:visited {
   padding: 20px;
   height: 520px;
 }
+
+.upload-form {
+  text-align: center;
+  padding-bottom: 100px;
+  color: black;
+  display: block;
+  height: 15em;
+  line-height: 3.5;
+}
+
+.input {
+  border: 1px solid rgb(163, 163, 163);
+  padding: 3%;
+  width: 300px;
+}
+
+.textarea-input {
+  border: 1px solid rgb(163, 163, 163);
+  padding: 3%;
+  width: 300px;
+  height: 100px;
+  resize: none;
+}
+
+.post-btn {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  width: 321px;
+  padding: 3%;
+}
+
+.latest-image {
+  width: 300ox;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
