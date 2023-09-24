@@ -12,6 +12,7 @@ function Navbar () {
                 <Link className='nav-link' to="/">ABOUT ME</Link>
                 <Link className='nav-link' to="/portfolio">PROJECTS</Link>
                 <Link className='nav-link' to="/resume">RESUME</Link>
+                <Link className='nav-link' to="/signin">SIGN IN</Link>
             </div>
             <div className="nav-child">
                 <img className="profile-pic" src="./2442.JPG" alt="profile" width="100"/>

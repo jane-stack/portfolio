@@ -5,8 +5,7 @@ import Home from "./components/main/Home";
 import PortfolioPage from "./components/portfolio/PortfolioPage";
 import Footer from "./components/Footer";
 import ResumePage from "./components/resume/ResumePage";
-// import FileForm from "./components/portfolio/FileForm";
-// import LastestImage from "./components/portfolio/LastestImage";
+import LoginPage from "./components/auth/LoginPage";
 
 export const AppContext = createContext(null);
 
@@ -18,12 +17,11 @@ function App() {
     <AppContext.Provider value={{ latestPost, setLatestPost }}>
     <Navbar />
     <div className="App">
-      {/* <FileForm />
-      <LastestImage /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/resume" element={<ResumePage />} />
+        <Route path="/signin" element={<LoginPage />} />
       </Routes>
     </div>
     <div className="Footer">
