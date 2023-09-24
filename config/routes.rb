@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :users, only: [:index]
   resources :projects
+  resources :users, only: [:index]
 
   # User
   get '/me', to: 'users#show'
