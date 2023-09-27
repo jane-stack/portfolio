@@ -162,3 +162,11 @@ a:visited {
   margin: 0 auto;
   display: block;
 }
+
+.upload-project {
+  display: flex;
+}
+
+.project-img {
+  padding: 10px;
+}
