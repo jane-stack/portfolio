@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./components/main/Home";
@@ -7,14 +7,14 @@ import Footer from "./components/Footer";
 import ResumePage from "./components/resume/ResumePage";
 import LoginPage from "./components/auth/LoginPage";
 
-export const AppContext = createContext(null);
+// export const AppContext = createContext(null);
 
 function App() {
-  const [latestPost, setLatestPost] = useState(AppContext);
+  // const [latestPost, setLatestPost] = useState(AppContext);
 
   return (
     <BrowserRouter>
-    <AppContext.Provider value={{ latestPost, setLatestPost }}>
+    {/* <AppContext.Provider value={{ latestPost, setLatestPost }}> */}
     <Navbar />
     <div className="App">
       <Routes>
@@ -27,7 +27,7 @@ function App() {
     <div className="Footer">
       <Footer />
     </div>
-    </AppContext.Provider>
+    {/* </AppContext.Provider> */}
     </BrowserRouter>
   )
 }
