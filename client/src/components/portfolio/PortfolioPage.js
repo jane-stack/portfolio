@@ -1,13 +1,13 @@
-import FileForm from "./FileForm";
-import LastestImage from "./LastestImage";
+// import FileForm from "./FileForm";
+// import LastestImage from "./LastestImage";
 
 function PortfolioPage () {
 
     return (
         <div>
             <div className="upload-project">
-                <FileForm />
-                <LastestImage />
+                {/* <FileForm />
+                <LastestImage /> */}
             </div>
         </div>
     )
